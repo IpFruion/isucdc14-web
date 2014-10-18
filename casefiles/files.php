@@ -4,7 +4,7 @@
         <link rel='stylesheet' type='text/css' href='/css/primary.css'>
         <link href='/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
         <link href='/css/bootstrap-responsive.min.css' rel='stylesheet' type='text/css'>
-	<meta http-equiv="refresh" content="0; url=https://ftp.team7.isucdc.com/" />
+
     </head>
     <body>
         <div class="container-fluid">
@@ -24,6 +24,10 @@
                 </div>
             </div>
         
+	<?php
+	    header("Location: https://ftp.team7.isucdc.com");
+	    die();
+	?>
         <!--<iframe src="https://ftp.team7.isucdc.com" style="width:100%;height:100%;"></iframe>--!>
     </div>
         <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js'></script>
